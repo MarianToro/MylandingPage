@@ -1,7 +1,7 @@
 /* Estilos generales */
 :root {
-    --primary-color: #1d6392;
-    --secondary-color: #2c3e50;
+    --primary-color: #86a2f0;
+    --secondary-color: #815541;
     --text-color: #333333;;
     --background-color: #f4f4f4;
     --light-gray: #ecf0f1;
@@ -9,7 +9,7 @@
 
 
 body {
-    font-family: "inter", sans-serif;
+    font-family: Roboto Slab;
     line-height: 1.6;
     margin: 0;
     padding: 0;
@@ -104,7 +104,7 @@ body {
 }
 
 .list li {
-    background-color: white;
+    background-color: rgb(255, 255, 255);
     border-left: 5px solid var(--primary-color);
     padding: 1rem;
     margin-bottom: 1rem;
@@ -114,7 +114,7 @@ body {
 
 .list-inline li {
     display: inline-block;
-    background-color: var(--light-gray);
+    background-color: #86a2f0;
     padding: 0.5rem 1rem;
     border-radius: 20px;
     margin: 0.5rem;
